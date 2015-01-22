@@ -24,5 +24,10 @@ namespace Animation
         {
             InitializeComponent();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            new Window1().Show();
+        }
     }
 }

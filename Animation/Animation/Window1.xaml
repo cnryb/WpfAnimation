@@ -1,0 +1,14 @@
+﻿<Window x:Class="Animation.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="淡入淡出"
+        Name="ThisWindow"
+        Loaded="Window1_OnLoaded"
+        Height="300" Width="300"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        >
+    <Grid>
+        <Button Click="ButtonBase_OnClick"></Button>
+    </Grid>
+</Window>
